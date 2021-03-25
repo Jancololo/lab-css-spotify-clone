@@ -1,8 +1,159 @@
-/*
-Colors:
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
 
-*/
+/*Style Nav*/
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 10px;
+  align-content: flex-end;
+}
+
+/*Style Header*/
+header {
+  background-image: url(/images/landing.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+  margin: 20px 40px;
+}
+
+header p {
+  width: 50%;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 30px;
+}
+
+/*Style Section 1*/
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 60px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.container img {
+  height: 70px;
+}
+
+.container article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 50px;
+  flex: 1;
+}
+
+.container article p {
+  font-size: 20px;
+  line-height: 25px;
+  margin: 0;
+}
+
+.section1 h2 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 7px;
+  border-bottom: 3px solid #1ab16a;
+}
+
+.section1 h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1ab16a;
+}
+
+/*Style Section 2*/
+.section2 {
+  background-color: #1ab16a;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 90px;
+}
+
+.section2 h2 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 7px;
+  border-bottom: 3px solid white;
+}
+
+.text-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.text-container h3 {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.text-container p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  width: 80%;
+}
+
+.spotify-icon {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100px;
+}
+
+.app-img {
+  height: 550px;
+}
